@@ -1,0 +1,27 @@
+{
+    "wcm"            : {
+        "templates"      : {
+            "sample-template"      : {
+                "structure"      : {
+                    "jcr:content"    : {
+                        "root"           : {
+                            "header": {
+                                "collectAllPages": "false",
+                                "navigationRoot": "/content/sample",
+                                "skipNavigationRoot": "true",
+                                "structureDepth": "2",
+                                "structureStart": "2"
+                            }
+                        },
+                        "jcr:primaryType": "nt:unstructured"
+                    },
+                    "jcr:primaryType": "cq:Page"
+                },
+                "jcr:primaryType": "cq:PageContent"
+            },
+            "jcr:primaryType": "cq:Page"
+        },
+        "jcr:primaryType": "cq:Page"
+    },
+    "jcr:primaryType": "sling:Folder"
+}

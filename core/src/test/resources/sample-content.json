@@ -1,0 +1,458 @@
+{
+  "designPath": "/libs/settings/wcm/designs/default",
+  "title": "English",
+  "templateName": "content-page",
+  "cssClassNames": "page basicpage",
+  "language": "en",
+  ":items": {
+    "root": {
+      "columnCount": 12,
+      "allowedComponents": {
+        "components": [
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/breadcrumb",
+            "title": "Breadcrumb"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/structure/header",
+            "title": "Sample Header"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/helloworld",
+            "title": "Hello World Component"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/image",
+            "title": "Image"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/languagenavigation",
+            "title": "Language Navigation"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/list",
+            "title": "List"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/navigation",
+            "title": "Navigation"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/search",
+            "title": "Quick Search"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/sharing",
+            "title": "Social Media Sharing"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/text",
+            "title": "Text"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/content/title",
+            "title": "Title"
+          },
+          {
+            "path": "/content/sample/en/jcr:content/root/sample/components/form/container",
+            "title": "Form Container"
+          }
+        ],
+        "applicable": false
+      },
+      "columnClassNames": {
+        "search": "aem-GridColumn aem-GridColumn--default--12",
+        "navigation": "aem-GridColumn aem-GridColumn--default--12",
+        "breadcrumb": "aem-GridColumn aem-GridColumn--default--12",
+        "languagenavigation": "aem-GridColumn aem-GridColumn--default--12",
+        "responsivegrid": "aem-GridColumn aem-GridColumn--default--12"
+      },
+      "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+      ":items": {
+        "languagenavigation": {
+          "items": [
+            {
+              "children": [],
+              "level": 0,
+              "active": true,
+              "title": "English",
+              "locale": "en",
+              "country": "",
+              "language": "en",
+              "url": "/content/sample/en.html",
+              "path": "/content/sample/en"
+            },
+            {
+              "children": [],
+              "level": 0,
+              "active": false,
+              "title": "Français",
+              "locale": "fr",
+              "country": "",
+              "language": "fr",
+              "url": "/content/sample/fr.html",
+              "path": "/content/sample/fr"
+            }
+          ],
+          ":type": "sample/components/content/languagenavigation"
+        },
+        "search": {
+          "relativePath": "/jcr:content/root/search",
+          "resultsSize": 10,
+          "searchTermMinimumLength": 3,
+          ":type": "sample/components/content/search"
+        },
+        "navigation": {
+          "items": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "children": [],
+                              "level": 4,
+                              "active": false,
+                              "url": "/content/sample/en/level-1/level-2/level-3/level-4.html",
+                              "path": "/content/sample/en/level-1/level-2/level-3/level-4",
+                              "lastModified": 1581227185332,
+                              "title": "A41"
+                            }
+                          ],
+                          "level": 3,
+                          "active": false,
+                          "url": "/content/sample/en/level-1/level-2/level-3.html",
+                          "path": "/content/sample/en/level-1/level-2/level-3",
+                          "lastModified": 1581227171785,
+                          "title": "A31"
+                        }
+                      ],
+                      "level": 2,
+                      "active": false,
+                      "url": "/content/sample/en/level-1/level-2.html",
+                      "path": "/content/sample/en/level-1/level-2",
+                      "lastModified": 1581227147954,
+                      "title": "A21"
+                    },
+                    {
+                      "children": [],
+                      "level": 2,
+                      "active": false,
+                      "url": "/content/sample/en/level-1/aaa.html",
+                      "path": "/content/sample/en/level-1/aaa",
+                      "lastModified": 1581227158699,
+                      "title": "A22"
+                    }
+                  ],
+                  "level": 1,
+                  "active": false,
+                  "url": "/content/sample/en/level-1.html",
+                  "path": "/content/sample/en/level-1",
+                  "lastModified": 1581227084601,
+                  "title": "A1"
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "children": [],
+                          "level": 3,
+                          "active": false,
+                          "url": "/content/sample/en/a-level-1/a-level-2/a-level-3.html",
+                          "path": "/content/sample/en/a-level-1/a-level-2/a-level-3",
+                          "lastModified": 1581227229901,
+                          "title": "B31"
+                        }
+                      ],
+                      "level": 2,
+                      "active": false,
+                      "url": "/content/sample/en/a-level-1/a-level-2.html",
+                      "path": "/content/sample/en/a-level-1/a-level-2",
+                      "lastModified": 1581227200457,
+                      "title": "B21"
+                    },
+                    {
+                      "children": [],
+                      "level": 2,
+                      "active": false,
+                      "url": "/content/sample/en/a-level-1/bbb.html",
+                      "path": "/content/sample/en/a-level-1/bbb",
+                      "lastModified": 1581227210132,
+                      "title": "B22"
+                    }
+                  ],
+                  "level": 1,
+                  "active": false,
+                  "url": "/content/sample/en/a-level-1.html",
+                  "path": "/content/sample/en/a-level-1",
+                  "lastModified": 1581227131570,
+                  "title": "B1"
+                }
+              ],
+              "level": 0,
+              "active": true,
+              "url": "/content/sample/en.html",
+              "path": "/content/sample/en",
+              "title": "New Project"
+            },
+            {
+              "children": [],
+              "level": 0,
+              "active": false,
+              "url": "/content/sample/fr.html",
+              "path": "/content/sample/fr",
+              "title": "Nouveau Project"
+            }
+          ],
+          ":type": "sample/components/content/navigation"
+        },
+        "breadcrumb": {
+          "items": [
+            {
+              "active": true,
+              "url": "/content/sample/en.html",
+              "title": "New Project"
+            }
+          ],
+          ":type": "sample/components/content/breadcrumb"
+        },
+        "responsivegrid": {
+          "columnCount": 12,
+          "allowedComponents": {
+            "components": [
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/breadcrumb",
+                "title": "Breadcrumb"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/structure/header",
+                "title": "Sample Header"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/helloworld",
+                "title": "Hello World Component"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/image",
+                "title": "Image"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/languagenavigation",
+                "title": "Language Navigation"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/list",
+                "title": "List"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/navigation",
+                "title": "Navigation"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/search",
+                "title": "Quick Search"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/sharing",
+                "title": "Social Media Sharing"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/text",
+                "title": "Text"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/content/title",
+                "title": "Title"
+              },
+              {
+                "path": "/content/sample/en/jcr:content/root/responsivegrid/sample/components/form/container",
+                "title": "Form Container"
+              }
+            ],
+            "applicable": false
+          },
+          "columnClassNames": {
+            "helloworld": "aem-GridColumn aem-GridColumn--default--12",
+            "container": "aem-GridColumn aem-GridColumn--default--12",
+            "image": "aem-GridColumn aem-GridColumn--default--12",
+            "text": "aem-GridColumn aem-GridColumn--default--12",
+            "title": "aem-GridColumn aem-GridColumn--default--12",
+            "list": "aem-GridColumn aem-GridColumn--default--12",
+            "sharing": "aem-GridColumn aem-GridColumn--default--12"
+          },
+          "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+          ":items": {
+            "title": {
+              "linkDisabled": false,
+              "text": "What is Lorem Ipsum?",
+              ":type": "sample/components/content/title"
+            },
+            "text": {
+              "text": "\u003cp\u003e\u003cb\u003eLorem Ipsum\u003c/b\u003e\u0026nbsp;is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\u0026#39;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\u003cbr\u003e\n\u003c/p\u003e\n",
+              "richText": true,
+              ":type": "sample/components/content/text"
+            },
+            "image": {
+              "src": "/content/sample/en/_jcr_content/root/responsivegrid/image.coreimg.jpeg/1581156226273/asset.jpeg",
+              "srcUriTemplate": "/content/sample/en/_jcr_content/root/responsivegrid/image.coreimg{.width}.jpeg/1581156226273/asset.jpeg",
+              "areas": [],
+              "uuid": "11a528af-125f-4a01-bb82-ea30d6b9eb69",
+              "widths": [],
+              "lazyEnabled": false,
+              ":type": "sample/components/content/image"
+            },
+            "list": {
+              "dateFormatString": "yyyy-MM-dd",
+              "items": [
+                {
+                  "url": "/content/sample/en.html",
+                  "path": "/content/sample/en",
+                  "title": "New Project"
+                },
+                {
+                  "url": "/content/sample/fr.html",
+                  "path": "/content/sample/fr",
+                  "title": "Nouveau Project"
+                }
+              ],
+              "showDescription": false,
+              "showModificationDate": false,
+              "linkItems": true,
+              ":type": "sample/components/content/list"
+            },
+            "helloworld": {
+              ":type": "sample/components/content/helloworld"
+            },
+            "container": {
+              "columnCount": 12,
+              "allowedComponents": {
+                "components": [
+                  {
+                    "path": "/content/sample/en/jcr:content/root/responsivegrid/container/sample/components/form/button",
+                    "title": "Form Button"
+                  },
+                  {
+                    "path": "/content/sample/en/jcr:content/root/responsivegrid/container/sample/components/form/hidden",
+                    "title": "Form Hidden"
+                  },
+                  {
+                    "path": "/content/sample/en/jcr:content/root/responsivegrid/container/sample/components/form/options",
+                    "title": "Form Options"
+                  },
+                  {
+                    "path": "/content/sample/en/jcr:content/root/responsivegrid/container/sample/components/form/text",
+                    "title": "Form Text"
+                  }
+                ],
+                "applicable": false
+              },
+              "columnClassNames": {
+                "button": "aem-GridColumn aem-GridColumn--default--12",
+                "options": "aem-GridColumn aem-GridColumn--default--12",
+                "text": "aem-GridColumn aem-GridColumn--default--12"
+              },
+              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
+              ":items": {
+                "text": {
+                  "id": "form-text-532991905",
+                  "title": "Lorem",
+                  "name": "lorem",
+                  "value": "",
+                  "helpMessage": "",
+                  "type": "text",
+                  "readOnly": false,
+                  "required": false,
+                  "requiredMessage": "",
+                  "constraintMessage": "",
+                  "rows": 2,
+                  "defaultValue": "",
+                  ":type": "sample/components/form/text"
+                },
+                "options": {
+                  "id": "form-options-300739210",
+                  "title": "Where does it come from?",
+                  "name": "come-from",
+                  "type": "CHECKBOX",
+                  "items": [
+                    {
+                      "value": "a",
+                      "text": "A",
+                      "selected": false,
+                      "disabled": false
+                    },
+                    {
+                      "value": "b",
+                      "text": "B",
+                      "selected": false,
+                      "disabled": false
+                    }
+                  ],
+                  ":type": "sample/components/form/options"
+                },
+                "button": {
+                  "id": "form-button-1604775516",
+                  "title": "Submit",
+                  "name": "",
+                  "value": "",
+                  "type": "SUBMIT",
+                  ":type": "sample/components/form/button"
+                }
+              },
+              ":itemsOrder": [
+                "text",
+                "options",
+                "button"
+              ],
+              ":type": "sample/components/form/container"
+            },
+            "sharing": {
+              "facebookEnabled": true,
+              "pinterestEnabled": false,
+              "socialMediaEnabled": true,
+              "metadata": {
+                "og:title": "English",
+                "og:url": "http://localhost:4503/content/sample/en.json",
+                "og:type": "website",
+                "og:site_name": "sample",
+                "og:image": "http://localhost:4503/content/sample/en.thumb.800.480.png?ck\u003d1581156222"
+              },
+              ":type": "sample/components/content/sharing",
+              "hasPinteresSharing": false,
+              "hasFacebookSharing": true
+            }
+          },
+          ":itemsOrder": [
+            "title",
+            "text",
+            "image",
+            "list",
+            "helloworld",
+            "container",
+            "sharing"
+          ],
+          ":type": "wcm/foundation/components/responsivegrid"
+        }
+      },
+      ":itemsOrder": [
+        "languagenavigation",
+        "search",
+        "navigation",
+        "breadcrumb",
+        "responsivegrid"
+      ],
+      ":type": "wcm/foundation/components/responsivegrid"
+    },
+    "image": {
+      ":type": "nt:folder"
+    }
+  },
+  ":itemsOrder": [
+    "root",
+    "image"
+  ],
+  ":type": "sample/components/structure/page"
+}

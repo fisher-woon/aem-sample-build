@@ -1,0 +1,81 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "en": {
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "jcr:primaryType": "cq:PageContent",
+      "jcr:createdBy": "admin",
+      "jcr:title": "English",
+      "cq:template": "/conf/sample/settings/wcm/templates/content-page",
+      "redirectTarget": "/content/sample/en",
+      "sling:resourceType": "sample/components/structure/page"
+    },
+    "a1": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "A1",
+        "pageTitle": "A1",
+        "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+        "sling:resourceType": "sample/components/structure/page"
+      },
+      "a21" : {
+        "jcr:primaryType": "cq:Page",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "A21",
+          "pageTitle": "A21",
+          "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+          "sling:resourceType": "sample/components/structure/page"
+        }
+      },
+      "a22" : {
+        "jcr:primaryType": "cq:Page",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "A22",
+          "pageTitle": "A22",
+          "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+          "sling:resourceType": "sample/components/structure/page"
+        }
+      }
+    },
+    "b1": {
+      "jcr:primaryType": "cq:Page",
+      "jcr:content": {
+        "jcr:primaryType": "cq:PageContent",
+        "jcr:createdBy": "admin",
+        "jcr:title": "B1",
+        "pageTitle": "B1",
+        "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+        "sling:resourceType": "sample/components/structure/page"
+      },
+      "b21" : {
+        "jcr:primaryType": "cq:Page",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "B21",
+          "pageTitle": "B21",
+          "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+          "sling:resourceType": "sample/components/structure/page"
+        }
+      },
+      "b22" : {
+        "jcr:primaryType": "cq:Page",
+        "jcr:content": {
+          "jcr:primaryType": "cq:PageContent",
+          "jcr:createdBy": "admin",
+          "jcr:title": "B22",
+          "pageTitle": "B22",
+          "cq:template": "/conf/sample/settings/wcm/templates/sample-template",
+          "sling:resourceType": "sample/components/structure/page"
+        }
+      }
+    }
+  },
+  "fr": {}
+}
